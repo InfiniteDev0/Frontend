@@ -1,11 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Website</title>
+    <!-- The above meta tags help with responsive design and character encoding -->
+  </head>
+  <body style="background-color: rgba(255, 228, 196, 0.945)">
+    <!-- Header Section -->
+    <header>
+      <h1>This is my header</h1>
+      <h2>This is my header</h2>
+      <h3>This is my header</h3>
+      <h4>This is my header</h4>
+      <h5>This is my header</h5>
+      <h6>This is my header</h6>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Paragraphs Section -->
+      <section>
+        <h2>Paragraphs</h2>
+        <p>This is a sample paragraph.</p>
+        <br />
+        <p>There is a break (br) between these two p tags.</p>
+      </section>
+
+      <!-- Horizontal Rule Example -->
+      <section>
+        <h2>Horizontal Rule</h2>
+        <h3>This is my website</h3>
+        <hr />
+        <h4>The above line is an hr tag</h4>
+        <h5>And this is the text</h5>
+      </section>
+
+      <!-- Hyperlinks Section -->
+      <section>
+        <h2>Hyperlinks</h2>
+        <a
+          href="https://infinitedevportfolio.vercel.app/"
+          target="_self"
+          title="Visit my portfolio"
+          >This is my portfolio</a
+        >
+        <br />
+        <!-- Email Link -->
+        <a href="mailto:mohamedabdiaziz515@gmail.com" target="_self"
+          >Email me</a
+        >
+      </section>
+
+      <!-- Images Section -->
+      <section>
+        <h2>Adding Images</h2>
+        <hr />
+        <img
+          src="ININITY LOGO.png"
+          style="width: 100px"
+          alt="ININITY LOGO"
+          title="Hello there"
+        />
+        <p>It's better to add images in a personal folder (e.g., images/)</p>
+      </section>
+
+      <!-- Image as Hyperlink Section -->
+      <section>
+        <h2>Turn Image into Hyperlink</h2>
+        <hr />
+        <a href="https://infinitedevportfolio.vercel.app/" target="_self">
+          <img
+            src="ININITY LOGO.png"
+            title="Click me"
+            width="100px"
+            alt="ININITY LOGO"
+          />
+        </a>
+      </section>
+
+      <!-- Audio Section -->
+      <section>
+        <h2>Audio Example</h2>
+        <audio controls autoplay muted loop>
+          <source src="discovery-by-declan-dp.mp3" type="audio/mpeg" />
+          <source src="discovery-by-declan-dp.wav" type="audio/wav" />
+          Your browser does not support HTML5 audio.
+        </audio>
+      </section>
+
+      <!-- Video Section -->
+      <section>
+        <h2>Video Example</h2>
+        <video width="300px" controls>
+          <source src="loom_1080p.mp4" type="video/mp4" />
+          <source src="loom_1080p.webm" type="video/webm" />
+          Your browser does not support HTML5 video.
+        </video>
+      </section>
+
+      <!-- Text Formatting Section -->
+      <section
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          font-size: 1.5rem;
+        "
+      >
+        <h2>Text Formatting</h2>
+        <p>This is normal text</p>
+        <b>This is bold text</b>
+        <i>This is italics text</i>
+        <small>This is small text</small>
+        <strong>This is strong text</strong>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <ins>This is inserted text</ins>
+        <del>This is deleted text</del>
+      </section>
+
+      <!-- Lists Section -->
+      <section>
+        <h2>Lists</h2>
+        <!-- Unordered List -->
+        <div>
+          <h3>Unordered List</h3>
+          <ul>
+            <li>
+              Eat
+              <ul>
+                <li>Breakfast</li>
+                <li>Lunch</li>
+                <li>Supper</li>
+              </ul>
+            </li>
+            <li>Sleep</li>
+            <li>Drink</li>
+          </ul>
+        </div>
+        <!-- Ordered List -->
+        <div>
+          <h3>Ordered List</h3>
+          <ol>
+            <li>Go to school</li>
+            <li>Come back</li>
+            <li>Visit family</li>
+          </ol>
+        </div>
+        <!-- Description List -->
+        <div>
+          <h3>Description List</h3>
+          <dl>
+            <dt>HTML</dt>
+            <dd>This is a markup language</dd>
+            <dt>CSS</dt>
+            <dd>This is a styling language</dd>
+          </dl>
+        </div>
+      </section>
+
+      <!-- Table Section -->
+      <section>
+        <h2>Store Hours</h2>
+        <table style="background-color: black; width: 700px">
+          <tr style="background-color: red">
+            <th style="width: 100px">Sunday</th>
+            <th style="width: 100px">Monday</th>
+            <th style="width: 100px">Tuesday</th>
+            <th style="width: 100px">Wednesday</th>
+            <th style="width: 100px">Thursday</th>
+            <th style="width: 100px">Friday</th>
+            <th style="width: 100px">Saturday</th>
+          </tr>
+          <tr style="background-color: lightgray; text-align: center">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Closed</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Span and Div Example Section -->
+      <section>
+        <h2>Span and Div Example</h2>
+        <h3 style="color: red">
+          Hello this is my name <span style="color: black">Infinity</span>
+        </h3>
+        <div style="background-color: yellow">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            ab.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            ab.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            ab.
+          </p>
+        </div>
+      </section>
+
+      <!-- Iframe Example Section -->
+      <section>
+        <h2>Iframe Example</h2>
+        <!--
+        <iframe src="https://www.underarmour.com/en-us/" frameborder="0" width="100%" height="500px" style="scrollbar-width: none;"></iframe>
+        -->
+      </section>
+
+      <!-- Buttons Section -->
+      <section>
+        <h2>Buttons</h2>
+        <a href="https://www.underarmour.com/en-us/">
+          <button
+            style="background-color: black; color: white"
+            onclick="displayText()"
+          >
+            Click me
+          </button>
+        </a>
+        <button
+          style="background-color: black; color: white"
+          onclick="displayText()"
+        >
+          Click me
+        </button>
+        <p id="text">Hello</p>
+      </section>
+
+      <!-- Forms Section -->
+      <section>
+        <h2>Form Example</h2>
+        <form action="action_page.php" method="POST">
+          <div>
+            <label for="FName">First name</label>
+            <input
+              type="text"
+              id="FName"
+              name="fname"
+              placeholder="e.g JohnDoe"
+              required
+            />
+          </div>
+          <div>
+            <label for="Lname">Last name</label>
+            <input
+              type="text"
+              id="Lname"
+              name="Lname"
+              placeholder="e.g JohnDoe"
+              required
+            />
+          </div>
+          <div>
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              id="Email"
+              name="email"
+              placeholder="e.g JohnDoe"
+              required
+            />
+          </div>
+          <div>
+            <label for="bday">B day</label>
+            <input type="date" id="bday" name="bday" />
+          </div>
+          <div>
+            <label for="quantity">Quantity</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              max="99"
+              min="0"
+              value="1"
+              required
+            />
+          </div>
+          <div>
+            <label>Title</label>
+            <div>
+              <label for="mr">Mr</label>
+              <input type="radio" name="title" id="mr" value="Mr" />
+            </div>
+            <div>
+              <label for="mrs">Mrs</label>
+              <input type="radio" name="title" id="mrs" value="Mrs" />
+            </div>
+            <div>
+              <label for="na">N/a</label>
+              <input type="radio" name="title" id="na" value="N/a" />
+            </div>
+          </div>
+          <div>
+            <label for="card">Card Type</label>
+            <select name="card" id="card">
+              <option value="master">Master</option>
+              <option value="gift card">Gift Card</option>
+              <option value="visa">Visa</option>
+            </select>
+          </div>
+          <div>
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            <label for="subscribe">Subscribe to newsletter</label>
+          </div>
+          <div>
+            <input type="reset" />
+            <input type="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script>
+      function displayText() {
+        document.getElementById("text").innerHTML = "Hello world";
+      }
+    </script>
+  </body>
 </html>
